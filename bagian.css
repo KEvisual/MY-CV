@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,500&display=swap");
+body {
+  background-image: linear-gradient(#d19e27, #c4c4c4);
+  height: 135vh;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+* {
+  margin: 0.5px;
+  padding: 0.5px;
+  font-family: "Nunito Sans", medium;
+}
+.main {
+  background-color: aquamarine;
+  height: fit-content;
+  width: 900px;
+  position: absolute;
+  transform: translate(-40%, -45%);
+  left: 48%;
+  top: 60%;
+}
+.left {
+  background-color: antiquewhite;
+  width: 295px;
+  height: 155%;
+  float: left;
+}
+.right {
+  width: 600px;
+  float: right;
+}
+.profile-img {
+  height: 265px;
+  width: 185px;
+  background-color: #c4c4c4;
+  border-radius: 70%;
+  margin-bottom: 30px;
+  margin-left: 25px;
+  border: 5px solid #6147bd;
+  box-shadow: 15px 5px 5px 5px #00c3ff73;
+}
+.profile-img img {
+  width: 95.5%;
+  border-radius: 100%;
+}
+.box-1 {
+  position: relative;
+}
+.heading {
+  background-color: rgb(0, 255, 255);
+  padding: 10px;
+  color: #ffb300;
+  text-align: left;
+  padding-left: 20px;
+  margin-right: 5px;
+}
+.heading::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 18px;
+  left: 190px;
+  top: 25px;
+  transform: rotate(50deg);
+  z-index: -10;
+}
+.p1 {
+  color: #6147bd;
+  font-style: italic;
+  padding: 10px 15px;
+  font-size: 15px;
+}
+.p1 p {
+  padding: 15px 15px;
+  text-align: center;
+  font-size: 11px;
+}
+.skill-container {
+  width: 95%;
+  background-color: #6147bd;
+  margin: 0px 10px;
+}
+.skill {
+  text-align: right;
+  padding-top: 1.5px;
+  padding-bottom: 2px;
+  color: rgb(243, 0, 0);
+}
+.skill photo {
+  width: 90%;
+  background-color: rgb(244, 26, 26);
+}
+.skill editing {
+  width: 90%;
+  background-color: rgb(244, 26, 26);
+}
+.skill design {
+  width: 90%;
+  background-color: rgb(244, 26, 26);
+}
+.skill devoloper {
+  width: 90%;
+  background-color: rgb(244, 26, 26);
+}
+.name-div {
+  padding: 100px 0px 45px 20px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+.name-div h1 {
+  margin-bottom: 2px;
+}
+.box-2 {
+  padding: 1px 10px;
+  margin-top: 30px;
+  text-align: left;
+}
+.p2 {
+  font-size: 15px;
+  font-weight: 350px;
+  letter-spacing: 2.5px;
+  word-spacing: 2px;
+  line-height: 35px;
+  margin-top: 5px;
+}
+h2 {
+  color: #d19e27;
+  font-style: bold;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+.p3 {
+  font-size: 13px;
+  word-spacing: 1px;
+  letter-spacing: 0px;
+  margin-top: 10px;
+}
+.p3 li {
+  color: #6147bd;
+}
+.p3 span {
+  color: rgb(255, 106, 0);
+  padding-left: 20px;
+}
+.h-div img {
+  vertical-align: bottom;
+  font-size: 15px !important;
+  color: aqua;
+}
